@@ -1,0 +1,63 @@
+.pandr
+{
+    position: absolute;
+    left: 126px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-image: url(../cards/3.png);
+}
+.pandp
+{
+    position: absolute;
+    left: 630px;
+    top: 100px;
+    width: 300px;
+    height: 300px;    
+    background-image: url(../cards/2.png);    
+}
+.online
+{
+    position: absolute;
+    left: 1125px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    background-image: url(../cards/2.png);
+}
+.no1
+{
+    position: absolute;
+    left: 177px;
+    top: 400px;
+    width: 244px;
+    height: 101px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+.no2
+{
+    position: absolute;
+    left: 679px;
+    top: 400px;
+    width: 244px;
+    height: 101px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+.no3
+{
+    position: absolute;
+    left: 1174px;
+    top: 400px;
+    width: 244px;
+    height: 101px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
