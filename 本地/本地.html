@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../人机/人机.css">
+</head>
+<body>
+    <div class="opponent">
+        <span id="op1" onclick="play2(1)"></span>
+        <span id="op2" onclick="play2(2)"></span>
+        <span id="op3" onclick="play2(3)"></span>
+        <span id="op4" onclick="play2(4)"></span>
+        <div id="op"></div>
+    </div>
+    <div class="table">
+        <span id="turn1"></span>
+        <div id="autop2" onclick="auto2()">托管</div>
+        <span id="paidui"></span>
+        <span id="panding"></span>
+        <span id="turn2">你的回合</span>
+        <div id="autop1" onclick="auto1()">托管</div>
+    </div>
+    <div class="myself">
+        <div id="my"></div>
+        <span id="my1" onclick="play1(1)"></span>
+        <span id="my2" onclick="play1(2)"></span>
+        <span id="my3" onclick="play1(3)"></span>
+        <span id="my4" onclick="play1(4)"></span>
+    </div>
+    <script  src="./本地.js"></script>
+</body>
+</html>

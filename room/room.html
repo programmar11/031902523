@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./room.css">
+</head>
+<body onload="GetRequest()">
+    <div id="create" onclick="newroom()">创建房间</div>
+    <ul>
+        <li id="no0" onclick="goto(0)"></li>
+        <li id="no1" onclick="goto(1)"></li>
+        <li id="no2" onclick="goto(2)"></li>
+        <li id="no3" onclick="goto(3)"></li>
+        <li id="no4" onclick="goto(4)"></li>
+        <li id="no5" onclick="goto(5)"></li>
+    </ul>
+    <div id="pagenum"></div>
+    <div id="back" onclick="backpage()"></div>
+    <div id="ahead" onclick="nextpage()"></div>
+    <div id="search" onclick="sear()">加入房间</div>
+    <input type="text" id="box1">
+    <div id="searpage" onclick="spage()">跳转</div>
+    <input type="text" id="box2">
+    <script  src="./room.js"></script>
+</body>
+</html>
