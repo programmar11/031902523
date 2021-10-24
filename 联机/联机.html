@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../人机/人机.css">
+</head>
+<body onload="start()">
+    
+    <div class="opponent">
+        <span id="op1"></span>
+        <span id="op2"></span>
+        <span id="op3"></span>
+        <span id="op4"></span>
+        <div id="op"></div>
+    </div>
+    <div id="thisIsUid"></div>
+    <div class="table">
+        <span id="turn1"></span>
+        <span id="paidui" onclick="action(0)"></span>
+        <span id="panding"></span>
+        <span id="turn2"></span>
+    </div>
+    <div class="myself">
+        <div id="my"></div>
+        <span id="my1" onclick="action(1)"></span>
+        <span id="my2" onclick="action(2)"></span>
+        <span id="my3" onclick="action(3)"></span>
+        <span id="my4" onclick="action(4)"></span>
+    </div>
+    <script  src="./联机.js"></script>
+</body>
+</html>
