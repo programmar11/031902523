@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(../cards/Background2.jpg);
+}
+.title
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1529px;
+    height: 734px;
+    line-height: 70px;
+    background-color: rgba(205, 231, 239, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 48px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.zwb
+{
+    position: absolute;
+    left: 604.5px;
+    top: 82px;
+    width: 320px;
+    height: 87px;
+    color: rgba(189, 241, 10, 81);
+    font-size: 72px;
+    text-align: center;
+    font-family: Helvetica Neue-bold;
+}
+.account
+{
+    position: absolute;
+    left: 437px;
+    top: 224px;
+    width: 117px;
+    height: 57px;
+    opacity: 0.9;
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: AlibabaPuHui-medium;
+}
+#box1
+{
+    position: absolute;
+    left: 600px;
+    top: 226px;
+    width: 492px;
+    height: 57px;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.pass
+{
+    position: absolute;
+    left: 437px;
+    top: 365px;
+    width: 117px;
+    height: 57px;
+    opacity: 0.9;
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: AlibabaPuHui-medium;
+}
+#box2
+{
+    position: absolute;
+    left: 600px;
+    top: 370px;
+    width: 492px;
+    height: 57px;
+    line-height: 20px;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 2px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+#login
+{
+    position: absolute;
+    left: 615px;
+    top: 608px;
+    width: 406px;
+    height: 53px;
+    line-height: 52px;
+    opacity: 0.7;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgba(232, 171, 71, 100);
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
