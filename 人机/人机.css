@@ -1,0 +1,174 @@
+*
+{
+    margin: 0 ;
+    padding: 0;
+}
+body
+{
+    background:skyblue url(../cards/Background2.jpg) no-repeat right top;
+}
+span
+{
+    display: block;
+    width: 105px;
+    height: 150px;
+    position:absolute;
+    background-image: url('../cards/ima.jpg');
+    left: 300px;
+    top: 320px;
+}
+.table
+{
+    height:455px;
+}
+.opponent
+{
+    height: 150px;
+    background-color:rgba(0,0,0,0.5);
+}
+.myself
+{
+    height: 150px;
+    background-color: rgba(0,0,0,0.5);
+}
+#paidui
+{
+    left: 300px;
+    top: 320px;
+    background-image: url('../cards/ima.jpg');
+}
+#panding
+{
+    left: 1095px;
+    top: 320px;
+    background-image: url('../cards/ima.jpg');
+}
+#op1
+{
+    left:150px; 
+    top:0px;
+    background-image: url('../cards/ima.jpg');
+}
+#op2
+{
+    left:405px; 
+    top:0px;
+    background-image: url('../cards/ima.jpg');
+}
+#op3
+{
+    left:670px; 
+    top:0px;
+    background-image: url('../cards/ima.jpg');
+}
+#op4
+{
+    left:925px; 
+    top:0px;
+    background-image: url('../cards/ima.jpg');
+}
+#my1
+{
+    left: 612px;
+    top: 605px;
+    background-image: url('../cards/ima.jpg');
+}
+#my2
+{
+    left: 867px;
+    top: 605px;
+    background-image: url('../cards/ima.jpg');
+}
+#my3
+{
+    left: 1122px;
+    top: 605px;
+    background-image: url('../cards/ima.jpg');
+}
+#my4
+{
+    left: 1377px;
+    top: 605px;
+    background-image: url('../cards/ima.jpg');
+}
+#turn1
+{
+    position: absolute;
+    left: 1077px;
+    top: 150px;
+    width: 205px;
+    height: 70px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    background-image: none;
+}
+#turn2
+{
+    position: absolute;
+    left: 150px;
+    top: 535px;
+    width: 205px;
+    height: 70px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 48px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    background-image: none;
+}
+#op
+{
+    display: block;
+    width: 157px;
+    height: 150px;
+    position:absolute;
+    background-image: url('../cards/1.png');
+    left: 1177px;
+    top: 0px;
+}
+#my
+{
+    display: block;
+    width: 157px;
+    height: 150px;
+    position:absolute;
+    background-image: url('../cards/1.png');
+    left: 150px;
+    top: 605px;
+}
+#thisIsUid
+{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
+#butt
+{
+    width: 30px;
+    height: 20px;
+    background-color:blue;
+    position:absolute;
+    left: 600px;
+    top: 600px;
+}
+#autop2
+{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    left: 1177px;
+    top: 150px;
+    background-color: steelblue;
+}
+#autop1
+{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    left: 150px;
+    top: 585px;
+    background-color: steelblue;
+}
